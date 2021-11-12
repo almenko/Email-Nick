@@ -1,0 +1,153 @@
+* {
+    margin: 0px auto;
+}
+
+body {
+
+
+}
+
+.main {
+    width: 100%;
+
+}
+
+p {
+    color: white;
+}
+.main-table {
+    background-image: url("../img/back.png");
+    /*background-color: black;*/
+    background-size: cover;
+    width: 60%;
+    align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-spacing: 0px 100px;
+    margin-top: 0px;
+    padding-top: 18%;
+
+}
+
+.main-table tr:last-child {
+    border-spacing: 0px 0px;
+}
+
+.table-footer {
+    border-spacing: 0px 30px;
+}
+
+.main-header {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Myriad Pro';
+}
+
+.main-header p {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.col-1-3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.item-image {
+    max-width: 100%;
+}
+
+.item-content {
+    padding-left: 20%;
+    margin-top: 20%;
+    font-size: 12px;
+}
+
+.item-header {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.item-header a {
+    color: #ffffff;
+}
+
+.item-description {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.item-price {
+    font-weight: 600;
+}
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: #ffffff; /* Цвет линии */
+    color: #ffffff; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+}
+
+.pay-image {
+    max-width: 50%;
+}
+
+.social-image {
+    max-width: 60%;
+}
+
+.footer-numb {
+    font-size: 16px;
+}
+
+.footer-numb a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-desc {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.vert {
+    vertical-align: revert;
+}
+
+@media screen and (max-width: 480px) {
+
+    .main-table {
+        width: 80%;
+        border-spacing: 0px 30px;
+        padding-top: 30%;
+    }
+    .main-header {
+        font-size: 16px;
+    }
+    .item-description {
+        font-size: 8px;
+    }
+    .item-header {
+        font-size: 8px;
+    }
+    .item-price {
+        font-size: 10px;
+    }
+    .footer-numb {
+        font-size: 12px;
+    }
+    .footer-desc {
+        font-size: 8px;
+    }
+    .table-footer {
+        border-spacing: 0px 15px;
+    }
+
+
+
+}
